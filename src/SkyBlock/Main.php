@@ -215,7 +215,7 @@ class Main extends PluginBase {
      * Register SkyBlock command
      */
     public function registerCommand() {
-        $this->getServer()->getCommandMap()->register("skyblock", new SkyBlockCommand($this));
+        $this->getServer()->getCommandMap()->register("", new SkyBlockCommand($this));
     }
 
     public function initialize() {
